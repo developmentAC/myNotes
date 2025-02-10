@@ -1,5 +1,7 @@
 This is the readme file that contains all I need to know about running the software.
 
+
+Left to right flow
 ```mermaid
 flowchart LR
 
@@ -13,7 +15,7 @@ E --> G[Execution]
 G --> F
 ```
 
-
+Top down flow
 ``` mermaid
     graph TD
         A[Start] --> B[Process 1]
@@ -22,4 +24,15 @@ G --> F
         C -->|No| E[End]
         D --> F[Process 3]
         F --> G[End]
+```
+
+Top Down flow
+``` mermaid
+graph TD
+
+    A-->B
+
+    B-->C
+
+    C-->D
 ```
