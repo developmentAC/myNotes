@@ -3,7 +3,7 @@ This is the readme file that contains all I need to know about running the softw
 ```mermaid
 flowchart LR
 
-A[State Building] --> B[Capitalism]
+A[Initial State] --> B[Container]
 A --> C[Begin]
 B --> D[Setups]
 C --> E[libraries]
